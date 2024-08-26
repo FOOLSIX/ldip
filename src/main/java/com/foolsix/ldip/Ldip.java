@@ -12,12 +12,14 @@ public class Ldip {
     public static final String MOD_ID = "ldip";
 
     public static final ForgeConfigSpec COMMON_CONFIG;
+    public static final ForgeConfigSpec.BooleanValue ALWAYS_SHOW;
     public static final ForgeConfigSpec.IntValue DAMAGE_INDICATOR_CAP;
     public static final ForgeConfigSpec.DoubleValue MULTIPLIER;
 
     static {
         ForgeConfigSpec.Builder CONFIG_BUILDER = new ForgeConfigSpec.Builder();
         CONFIG_BUILDER.push("Limited Damage Indicator Particle");
+        ALWAYS_SHOW = CONFIG_BUILDER.define("DisplayDamageParticlesEvenWhenDamageIsLow", false);
         DAMAGE_INDICATOR_CAP = CONFIG_BUILDER.defineInRange("MaximumNumberOfDamageIndicatorParticle", 100, 0, Integer.MAX_VALUE);
         MULTIPLIER = CONFIG_BUILDER.defineInRange("DamageIndicatorParticleMultiplier", 1.0, 0, Double.MAX_VALUE);
         CONFIG_BUILDER.pop();
