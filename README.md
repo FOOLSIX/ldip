@@ -8,3 +8,7 @@ Download:
 ![Available Versions](https://cf.way2muchnoise.eu/versions/1091228.svg)
 
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/limited-damage-indicator-particle)
+
+![Modrinth Downloads](https://img.shields.io/modrinth/dt/pNyCt5c3)
+
+[Modrinth](https://modrinth.com/mod/limited-damage-indicator-particle)
