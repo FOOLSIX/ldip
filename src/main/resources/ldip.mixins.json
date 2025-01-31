@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.foolsix.ldip.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ldip.refmap.json",
+  "mixins": [
+    "PlayerEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
