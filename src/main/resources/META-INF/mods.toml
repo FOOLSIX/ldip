@@ -2,8 +2,8 @@ modLoader="javafml"
 loaderVersion="[36,)"
 license="GNU GPL 3.0"
 [[mods]]
-modId="ldip"
-version="1.0"
-displayName="Limited Damage Indicator Particle"
-authors="FOOLSIX"
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_authors}"
 description = '''${mod_description}'''
